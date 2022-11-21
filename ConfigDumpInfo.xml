@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="CommonModule.Автомобили" id="ccee377f-713a-49fc-b4b0-c4a373e43366" configVersion="4decd0638a36df489eb728058aa58cbb00000000"/>
+		<Metadata name="CommonModule.Автомобили.Module" id="ccee377f-713a-49fc-b4b0-c4a373e43366.0" configVersion="5a7bd39e9b280847bc9da1c8bb0ec94b00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="1814772a-e853-447f-a781-b801d1dbb7df" configVersion="3d1491ca20feb64f9af6af95790d7ace00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="1814772a-e853-447f-a781-b801d1dbb7df.0" configVersion="639ae7c887806141ab64e2f9865717f500000000"/>
+		<Metadata name="Configuration.Конфигурация" id="94c90a5d-434b-4dd6-93b9-2c54775c2d5a" configVersion="74089c15305f6441a1f7cfbc4368242f00000000"/>
+		<Metadata name="DataProcessor.Обработка1" id="490788c8-9edb-48e6-9c89-ea3daacf1799" configVersion="e2fcc404fd763542bd4c90c56cba0d1400000000"/>
+		<Metadata name="ExternalDataSource.А" id="adf2eccd-b248-4ee0-a7a5-cdf5784330e5" configVersion="6bbd1af724cb814cb9d94f4351f470f900000000"/>
+		<Metadata name="ExternalDataSource.А.Table.vehicle" id="f30e5c3a-b3fe-42f5-b30d-18b3d7dbabff" configVersion="30c8d397f74f5f42a5a3bfd63f43286300000000">
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.id" id="079c544e-3d87-474f-93bb-b53589c55432"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.timestamp" id="2d41d335-f93d-40f7-8b2a-e235e51dfa8f"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.engineType" id="4b7f255f-d141-4a8c-bcf4-42be62d82cff"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.color" id="651ce4e1-bc16-4edb-a73f-ca9ec4ca4582"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.bodyType" id="861a32a0-0398-4d1a-8987-1dbd2e6fd42e"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.type" id="91246cd6-6a08-4272-9475-8a9651ecaff8"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.model" id="9b0cecd2-7d5c-400f-a7a6-4a071bebe78e"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.vin" id="9e2ea6a6-f88c-4c14-a5ce-4402677a9d3f"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.make" id="a3ca13de-a936-44af-a319-b7d02ba1c088"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.year" id="b748645b-6b2b-4203-9b90-285f9be9e282"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.run" id="f9885015-2753-403c-8512-d6c574ddc0ca"/>
+			<Metadata name="ExternalDataSource.А.Table.vehicle.Field.ref1C" id="f9f005d7-24bf-4412-9926-cbcc54bbbc5d"/>
+		</Metadata>
+		<Metadata name="HTTPService.service1" id="382ae150-97de-479c-b775-c6cc8fa07d57" configVersion="e9ebafaa1b87234e9d2ae0a18f692b8c00000000">
+			<Metadata name="HTTPService.service1.URLTemplate.ШаблонURL1.Method.Метод1" id="5b371f6a-a7c7-4b0d-bb8b-655c2cd685ce"/>
+			<Metadata name="HTTPService.service1.URLTemplate.ШаблонURL1" id="bf8b10fb-4e4f-4dfe-881e-596dc0114511"/>
+		</Metadata>
+		<Metadata name="HTTPService.service1.Module" id="382ae150-97de-479c-b775-c6cc8fa07d57.0" configVersion="5481365ea9ca45488d4b0b06b1e9169400000000"/>
+		<Metadata name="InformationRegister.АнкетаЛояльности" id="138dc79b-acde-460e-a548-91b8eaec9b8c" configVersion="63f8957bc5df3d4dbad1d62cd631436600000000">
+			<Metadata name="InformationRegister.АнкетаЛояльности.Dimension.Контрагент" id="179685f6-5bad-4f5a-8956-56f49c0c4d87"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Dimension.ДокументТип" id="2487fba7-29b4-4f71-b82c-207b256b09b1"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Dimension.Документ" id="435ae367-e2d3-4585-8187-8b918bcd03ea"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Resource.Ответ2" id="6951388a-fefb-44fe-865a-33d5636ed9ba"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Attribute.КонтрагентИмя" id="6e91470d-6600-46ae-a676-7f9242353498"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Attribute.КонтрагентНеОУНеНайден" id="84427c15-efea-48d1-ab21-97bc9dae1f54"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Dimension.АнкетаДата" id="96effc42-651d-46c0-a543-729878d907a8"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Dimension.ДокументДата" id="b1694793-74e9-44af-967e-5ec1b68f74e5"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Dimension.Источник" id="e5ed7440-5aa3-4e63-8b78-b0055d1ad15f"/>
+			<Metadata name="InformationRegister.АнкетаЛояльности.Resource.Ответ1" id="f58ebe9e-8cc8-4d89-8d54-9c042118de9e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.НепереодическиеПараметры" id="989ce7a1-c9ec-4f83-af77-32e4100b3cb1" configVersion="d36ab169cdb72a46bd0c169d614b6fbc00000000">
+			<Metadata name="InformationRegister.НепереодическиеПараметры.Resource.Значение" id="61f81670-c39e-4e16-be2e-1d64195c9527"/>
+			<Metadata name="InformationRegister.НепереодическиеПараметры.Dimension.Ид" id="779c0ff7-6324-40d5-8213-a0bef38f7da7"/>
+			<Metadata name="InformationRegister.НепереодическиеПараметры.Resource.ТипЗначения" id="94fa0ac5-61f0-477d-9793-2dbb13d6fb98"/>
+			<Metadata name="InformationRegister.НепереодическиеПараметры.Attribute.Описание" id="d6e375ee-2ea8-4b2d-957d-24732bfd882e"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="9f2e3a1e-925f-4152-90d1-ea749049c8c5" configVersion="23ada392cbb8a8468619c71d172d8e5300000000"/>
+		<Metadata name="Role.Администратор" id="fccc01b9-12ea-444d-83e0-55a35261b151" configVersion="04090e329dd25f4584a204103691265400000000"/>
+		<Metadata name="Role.Администратор.Rights" id="fccc01b9-12ea-444d-83e0-55a35261b151.0" configVersion="f26c02722240df4698e8d87ba339ab1500000000"/>
+		<Metadata name="ScheduledJob.ЧтениеАвтомобилей" id="a6f4dbd8-e024-4018-bf98-ed9c09b2c898" configVersion="b011826734aae34b811098fc69424fb000000000"/>
+		<Metadata name="Subsystem.Обработки" id="55495ec5-7759-454f-b854-27b6a578b78e" configVersion="1bb5c25b34351d43b230dcb03700986700000000"/>
+		<Metadata name="WebService.Reports" id="9f087373-9441-47a9-8a3c-a2fe6b047591" configVersion="c012d30bfb66e14999902694f9003a6d00000000">
+			<Metadata name="WebService.Reports.Operation.Report1" id="1915be56-d5ae-4071-a5cd-535638c96d0a"/>
+		</Metadata>
+		<Metadata name="WebService.Reports.Module" id="9f087373-9441-47a9-8a3c-a2fe6b047591.0" configVersion="48e4805b3a58a84a9ae186840e0946e700000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
